@@ -9,40 +9,40 @@
 void option_1_selected(global *glob)
 {
     attron(A_STANDOUT);
-    mvprintw(LINES / 2 - 2, COLS / 3 - strlen(glob->make[0]) / 2, glob->make[0]);
+    mvprintw(LINES / 2 - 2, COLS / 3 - strlen(RE) / 2, RE);
     attroff(A_STANDOUT);
-    mvprintw(LINES / 2 - 2, (COLS / 3) * 2 - strlen(glob->make[1]) / 2, glob->make[1]);
-    mvprintw(LINES / 2 + 2, COLS / 3 - strlen(glob->make[2]) / 2, glob->make[2]);
-    mvprintw(LINES / 2 + 2, (COLS / 3) * 2 - strlen(glob->make[3]) / 2, glob->make[3]);
+    mvprintw(LINES / 2 - 2, (COLS / 3) * 2 - strlen(MOULI) / 2, MOULI);
+    mvprintw(LINES / 2 + 2, COLS / 3 - strlen(CLEAN) / 2, CLEAN);
+    mvprintw(LINES / 2 + 2, (COLS / 3) * 2 - strlen(FCLEAN) / 2, FCLEAN);
 }
 
 void option_2_selected(global *glob)
 {
-    mvprintw(LINES / 2 - 2, COLS / 3 - strlen(glob->make[0]) / 2, glob->make[0]);
+    mvprintw(LINES / 2 - 2, COLS / 3 - strlen(RE) / 2, RE);
     attron(A_STANDOUT);
-    mvprintw(LINES / 2 - 2, (COLS / 3) * 2 - strlen(glob->make[1]) / 2, glob->make[1]);
+    mvprintw(LINES / 2 - 2, (COLS / 3) * 2 - strlen(MOULI) / 2, MOULI);
     attroff(A_STANDOUT);
-    mvprintw(LINES / 2 + 2, COLS / 3 - strlen(glob->make[2]) / 2, glob->make[2]);
-    mvprintw(LINES / 2 + 2, (COLS / 3) * 2 - strlen(glob->make[3]) / 2, glob->make[3]);
+    mvprintw(LINES / 2 + 2, COLS / 3 - strlen(CLEAN) / 2, CLEAN);
+    mvprintw(LINES / 2 + 2, (COLS / 3) * 2 - strlen(FCLEAN) / 2, FCLEAN);
 }
 
 void option_3_selected(global *glob)
 {
-    mvprintw(LINES / 2 - 2, COLS / 3 - strlen(glob->make[0]) / 2, glob->make[0]);
-    mvprintw(LINES / 2 - 2, (COLS / 3) * 2 - strlen(glob->make[1]) / 2, glob->make[1]);
+    mvprintw(LINES / 2 - 2, COLS / 3 - strlen(RE) / 2, RE);
+    mvprintw(LINES / 2 - 2, (COLS / 3) * 2 - strlen(MOULI) / 2, MOULI);
     attron(A_STANDOUT);
-    mvprintw(LINES / 2 + 2, COLS / 3 - strlen(glob->make[2]) / 2, glob->make[2]);
+    mvprintw(LINES / 2 + 2, COLS / 3 - strlen(CLEAN) / 2, CLEAN);
     attroff(A_STANDOUT);
-    mvprintw(LINES / 2 + 2, (COLS / 3) * 2 - strlen(glob->make[3]) / 2, glob->make[3]);
+    mvprintw(LINES / 2 + 2, (COLS / 3) * 2 - strlen(FCLEAN) / 2, FCLEAN);
 }
 
 void option_4_selected(global *glob)
 {
-    mvprintw(LINES / 2 - 2, COLS / 3 - strlen(glob->make[0]) / 2, glob->make[0]);
-    mvprintw(LINES / 2 - 2, (COLS / 3) * 2 - strlen(glob->make[1]) / 2, glob->make[1]);
-    mvprintw(LINES / 2 + 2, COLS / 3 - strlen(glob->make[2]) / 2, glob->make[2]);
+    mvprintw(LINES / 2 - 2, COLS / 3 - strlen(RE) / 2, RE);
+    mvprintw(LINES / 2 - 2, (COLS / 3) * 2 - strlen(MOULI) / 2, MOULI);
+    mvprintw(LINES / 2 + 2, COLS / 3 - strlen(CLEAN) / 2, CLEAN);
     attron(A_STANDOUT);
-    mvprintw(LINES / 2 + 2, (COLS / 3) * 2 - strlen(glob->make[3]) / 2, glob->make[3]);
+    mvprintw(LINES / 2 + 2, (COLS / 3) * 2 - strlen(FCLEAN) / 2, FCLEAN);
     attroff(A_STANDOUT);
 }
 

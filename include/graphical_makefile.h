@@ -8,6 +8,11 @@
 #ifndef GRAPHICAL_MAKEFILE_H_
     #define GRAPHICAL_MAKEFILE_H_
 
+    #define RE "RE"
+    #define MOULI "MOULI"
+    #define CLEAN "CLEAN"
+    #define FCLEAN "FCLEAN"
+
     #include <stdio.h>
     #include <stdlib.h>
     #include <unistd.h>
