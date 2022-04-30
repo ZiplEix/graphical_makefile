@@ -1,0 +1,9 @@
+              __  __   ___   _   _  _      ___ 
+             |  \/  | / _ \ | | | || |    |_ _|
+             | |\/| || | | || | | || |     | | 
+             | |  | || |_| || |_| || |___  | | 
+             |_|  |_| \___/  \___/ |_____||___|
+
+Call the "fclean" target to clean up the build directory.
+
+Then, if you possess Abricot norminette, will execute abricot

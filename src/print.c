@@ -60,5 +60,5 @@ void print_option(global *glob)
     if (glob->selected->x == 1 && glob->selected->y == 1) {
         option_4_selected(glob);
     }
-    mvprintw(LINES - 1, 0, "QUIT : Q");
+    mvprintw(LINES - 1, 0, "QUIT : Q\tINFO : I");
 }

@@ -25,5 +25,8 @@ int my_strlen(char const *str);
 void my_putnbr(int nb);
 char **my_str_to_word_array(char *str);
 char *my_strncpy(char *dest, char const *src, int n);
+int line_number(char *str);
+int biggest_colums(char *str);
+char **my_split(char *str, char splitter);
 
 #endif /* !LIB_H_ */

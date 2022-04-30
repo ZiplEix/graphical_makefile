@@ -14,5 +14,6 @@ int quit(global *glob);
 void loop(global *glob);
 void print_option(global *glob);
 void cursor_selector(global *glob);
+void click_enter(global *glob);
 
 #endif /* !PROTO_H_ */
